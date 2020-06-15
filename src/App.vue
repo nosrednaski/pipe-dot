@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <dotDash msg="Welcome to Your Vue.js App"/>
+   
+    <dotDash/>
   </div>
 </template>
 
 <script>
-import dotDash from './components/dotDash.vue'
-
+import dotDash from './components/dotDash.vue';
+// import Row from './components/Row.Vue';
 export default {
   name: 'App',
   components: {
-    dotDash
+    dotDash,
   }
 }
 </script>

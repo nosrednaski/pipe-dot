@@ -9,12 +9,16 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "esm": "^3.2.25",
     "node-sass": "^4.14.1",
     "sass": "^1.26.8",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
